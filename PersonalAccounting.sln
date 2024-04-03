@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountingApp", "AccountingApp\AccountingApp.csproj", "{4CF455D1-7651-44A3-9204-98F0E15C0264}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountingApp", "AccountingApp\AccountingApp.csproj", "{5D6C92A9-6F10-418E-878B-D87B4CA86354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4CF455D1-7651-44A3-9204-98F0E15C0264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4CF455D1-7651-44A3-9204-98F0E15C0264}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4CF455D1-7651-44A3-9204-98F0E15C0264}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4CF455D1-7651-44A3-9204-98F0E15C0264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D6C92A9-6F10-418E-878B-D87B4CA86354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6C92A9-6F10-418E-878B-D87B4CA86354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6C92A9-6F10-418E-878B-D87B4CA86354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6C92A9-6F10-418E-878B-D87B4CA86354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9D09C243-2833-4F26-B75A-200BF9DCB7C6}
+		SolutionGuid = {18FF52B7-6684-40BD-9C41-3623C02BFE65}
 	EndGlobalSection
 EndGlobal
