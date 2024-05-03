@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="19e5acd3376b4f249833fe0d47569276" Name="Diagram1">
+        <EntityTypeShape EntityType="Accounting_DBModel.Customers" Width="1.5" PointX="0.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Accounting_DBModel.AccountingTypes" Width="1.5" PointX="0.75" PointY="4.25" />
+        <EntityTypeShape EntityType="Accounting_DBModel.Transactions" Width="1.5" PointX="3" PointY="0.75" />
+        <AssociationConnector Association="Accounting_DBModel.FK_Transactions_AccountingTypes" />
+        <AssociationConnector Association="Accounting_DBModel.FK_Transactions_Customers" />
+        <EntityTypeShape EntityType="Accounting_DBModel.User" Width="1.5" PointX="3.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -3,7 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountingApp", "AccountingApp\AccountingApp.csproj", "{5D6C92A9-6F10-418E-878B-D87B4CA86354}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting.App", "AccountingApp\Accounting.App.csproj", "{5D6C92A9-6F10-418E-878B-D87B4CA86354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting.DataLayer", "Accounting.DataLayer\Accounting.DataLayer.csproj", "{B603FFB8-6286-40B9-821B-5821D4A3EE93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting.ViewModels", "Accounting.ViewModels\Accounting.ViewModels.csproj", "{66CC9831-6A48-474F-8367-992412ACED42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting.Business", "Accounting.Business\Accounting.Business.csproj", "{8F505107-81B2-40C9-B692-E9714BD903E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting.Utility", "Accounting.utility\Accounting.Utility.csproj", "{CBC9403B-F114-4E48-9707-3E2A469A738E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{43E9472A-A24B-4DB5-961B-C9DDB4C41BB5}"
+	ProjectSection(SolutionItems) = preProject
+		btn_styles.txt = btn_styles.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +28,22 @@ Global
 		{5D6C92A9-6F10-418E-878B-D87B4CA86354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D6C92A9-6F10-418E-878B-D87B4CA86354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D6C92A9-6F10-418E-878B-D87B4CA86354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B603FFB8-6286-40B9-821B-5821D4A3EE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B603FFB8-6286-40B9-821B-5821D4A3EE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B603FFB8-6286-40B9-821B-5821D4A3EE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B603FFB8-6286-40B9-821B-5821D4A3EE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CC9831-6A48-474F-8367-992412ACED42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CC9831-6A48-474F-8367-992412ACED42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CC9831-6A48-474F-8367-992412ACED42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CC9831-6A48-474F-8367-992412ACED42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F505107-81B2-40C9-B692-E9714BD903E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F505107-81B2-40C9-B692-E9714BD903E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F505107-81B2-40C9-B692-E9714BD903E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F505107-81B2-40C9-B692-E9714BD903E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC9403B-F114-4E48-9707-3E2A469A738E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC9403B-F114-4E48-9707-3E2A469A738E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC9403B-F114-4E48-9707-3E2A469A738E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC9403B-F114-4E48-9707-3E2A469A738E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
