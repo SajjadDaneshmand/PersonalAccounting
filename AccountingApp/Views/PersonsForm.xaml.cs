@@ -119,7 +119,7 @@ namespace AccountingApp.Views
             editPerson.Title = "Edit";
             editPerson.FullName_TextBox.Text = selectedCustomer.FullName;
             editPerson.Mobile_TextBox.Text = selectedCustomer.Mobile;
-            editPerson.Email_TextBox.Text = selectedCustomer.EMail;
+            editPerson.Email_TextBox.Text = selectedCustomer.Email;
             editPerson.Address_TextBox.Text = selectedCustomer.Address;
             editPerson.ShowDialog();
 

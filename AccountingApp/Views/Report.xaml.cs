@@ -142,7 +142,7 @@ namespace AccountingApp.Views
                     db.Save();
                 }
 
-                GeneralAlert.InfoMessageBox(this, "Successfully Removerd!");
+                GeneralAlert.InfoMessageBox(this, "Successfully Removed!");
                 BindGrid();
             }
             else

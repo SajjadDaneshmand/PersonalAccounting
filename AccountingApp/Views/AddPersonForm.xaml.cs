@@ -75,7 +75,7 @@ namespace AccountingApp.Views
             {
                 FullName = PersonDetail[0],
                 Mobile = PersonDetail[1],
-                EMail = PersonDetail[2],
+                Email = PersonDetail[2],
                 Address = PersonDetail[3],
             };
 
